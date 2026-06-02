@@ -20,3 +20,4 @@ Do you have questions about stigmaRverse? You can direct questions to our discus
 Our latest paper published in Sexuality Research and Social Policy provides an applied tutorial on conducting structural stigma research using `stigmaR`. 
 
 You can also view a tutorial on this website under the "Examples" tab on the top of this website. 
+
