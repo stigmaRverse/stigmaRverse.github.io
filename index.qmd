@@ -1,0 +1,22 @@
+---
+title: "Advancing Structural Stigma Research"
+---
+
+:::callout-warning
+This project is currently in development. Contents and functions from the stigmaRverse are subject to change. 
+:::
+
+Thank you for visiting the stigmaRverse website. This weabsite serves as the central hub for three branches of the stigmaR universe (stigmaRverse):
+
+1.  stigmaRdata (Data cleaning pipeline)
+2.  stigmaR (R Package)
+3.  stigmaR.app (Shiny App)
+
+:::callout-note
+Do you have questions about stigmaRverse? You can direct questions to our discussion board [here]().
+:::
+
+## First Time Researching Structural Stigma?
+Our latest paper published in Sexuality Research and Social Policy provides an applied tutorial on conducting structural stigma research using `stigmaR`. 
+
+You can also view a tutorial on this website under the "Examples" tab on the top of this website. 
