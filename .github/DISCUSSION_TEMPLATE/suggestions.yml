@@ -1,4 +1,4 @@
-title: "[stigmaR or stigmaRdata or stigmaR.app] TEXT_HERE"
+title: "[stigmaR] "
 body:
   - type: markdown
     attributes:
@@ -56,9 +56,9 @@ body:
       description: >
         If your suggestion involves a new function or workflow, sketch out what the interface might look like.
       value: |
-```r
+        ```r
         # Example of what you'd hope to write
-```
+        ```
 
   - type: textarea
     id: alternatives

@@ -1,4 +1,4 @@
-title: "[stigmaR or stigmaRdata or stigmaR.app] TEXT_HERE"
+title: "[stigmaR] "
 body:
   - type: markdown
     attributes:
@@ -41,9 +41,9 @@ body:
         If your question involves code or an error, please paste a minimal reproducible example below.
         Not sure how to write one? See https://www.tidyverse.org/help/#reprex
       value: |
-```r
+        ```r
         # Paste your code here
-```
+        ```
 
   - type: textarea
     id: error
@@ -51,3 +51,24 @@ body:
       label: Error message (if applicable)
       description: Paste the full error message or warning output below.
       value: |
+        ```
+        # Paste error output here
+        ```
+
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: "e.g., stigmaR 0.1.0 — run packageVersion('stigmaR')"
+
+  - type: input
+    id: r-version
+    attributes:
+      label: R version
+      placeholder: "e.g., R 4.3.2 — run R.version.string"
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "e.g., macOS 14, Windows 11, Ubuntu 22.04"
