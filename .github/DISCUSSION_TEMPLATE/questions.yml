@@ -1,0 +1,53 @@
+title: "[stigmaR or stigmaRdata or stigmaR.app] TEXT_HERE"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before You Ask
+        - Search existing discussions to see if your question has already been answered.
+        - Make sure to edit the title above to include the relevant package: **[stigmaR]**, **[stigmaRdata]**, or **[stigmaR.app]**
+
+  - type: dropdown
+    id: package
+    attributes:
+      label: Which package or component is this about?
+      options:
+        - stigmaR
+        - stigmaRdata
+        - stigmaR.app
+        - Multiple / Unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What is your question?
+      placeholder: Describe what you are trying to do and what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you already tried?
+      placeholder: Share any approaches you have already attempted.
+
+  - type: textarea
+    id: reprex
+    attributes:
+      label: Reproducible example (if applicable)
+      description: >
+        If your question involves code or an error, please paste a minimal reproducible example below.
+        Not sure how to write one? See https://www.tidyverse.org/help/#reprex
+      value: |
+```r
+        # Paste your code here
+```
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message (if applicable)
+      description: Paste the full error message or warning output below.
+      value: |

@@ -1,0 +1,74 @@
+title: "[stigmaR or stigmaRdata or stigmaR.app] TEXT_HERE"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Suggesting an Improvement or Feature
+        Thanks for helping improve the stigmaRverse! Please edit the title above to include the relevant package: **[stigmaR]**, **[stigmaRdata]**, or **[stigmaR.app]**
+
+  - type: dropdown
+    id: package
+    attributes:
+      label: Which package or component is this about?
+      options:
+        - stigmaR
+        - stigmaRdata
+        - stigmaR.app
+        - Multiple / Unsure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of suggestion is this?
+      options:
+        - New feature or function
+        - Improvement to existing functionality
+        - Documentation
+        - Data or index coverage
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the limitation or gap you are running into.
+      placeholder: "e.g., There is currently no way to filter indices by year..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe what you would like to see added or changed.
+      placeholder: Describe your idea as concretely as you can.
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example or mockup (if applicable)
+      description: >
+        If your suggestion involves a new function or workflow, sketch out what the interface might look like.
+      value: |
+```r
+        # Example of what you'd hope to write
+```
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have considered
+      placeholder: Are there workarounds you are currently using?
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to help implement or test this.
